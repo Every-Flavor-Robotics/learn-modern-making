@@ -1,4 +1,4 @@
-"""Generate a QR code for each resource list.
+"""Generate the QR code for the resource index.
 
 Run from the repo root:
     uv run --no-project --python 3.12 --with 'qrcode[pil]' --with zxing-cpp python scripts/make_qr.py
@@ -10,15 +10,7 @@ import zxingcpp
 from PIL import Image
 
 REPO = "https://github.com/Every-Flavor-Robotics/learn-modern-making"
-TARGETS = {
-    "all": REPO,
-    "design": f"{REPO}/blob/main/resources/design.md",
-    "features": f"{REPO}/blob/main/resources/features.md",
-    "printing": f"{REPO}/blob/main/resources/printing.md",
-    "tolerancing": f"{REPO}/blob/main/resources/tolerancing.md",
-    "onshape": f"{REPO}/blob/main/resources/onshape.md",
-    "llms": f"{REPO}/blob/main/resources/llms.md",
-}
+TARGETS = {"all": REPO}
 
 out = Path("qr")
 out.mkdir(exist_ok=True)
