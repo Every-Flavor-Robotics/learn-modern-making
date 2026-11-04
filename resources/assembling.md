@@ -4,6 +4,7 @@
 
 ## Glue
 
+- [3D Gloop!](https://www.3dgloop.com/): adhesives formulated for each printing plastic
 - [JLC3DP: How to glue 3D prints](https://jlc3dp.com/blog/3d-print-glue-complete-guide): an overview of glues and surface prep
 - [3DSourced: Best glue by plastic](https://www.3dsourced.com/rankings/best-glue-for-3d-prints-pla-abs-petg-tpu-nylon/): picks for PLA, ABS, PETG, TPU and nylon
 - [Filament2Print: How to glue 3D printed pieces](https://filament2print.com/en/blog/kleben-teile-3d-druck): joint types compared
